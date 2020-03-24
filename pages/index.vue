@@ -2,7 +2,6 @@
   <div class="container">
     <h3 class="form-label">Write Us</h3>
     <form
-      @submit.prevent="handleSubmit"
       name="contact"
       method="post"
       netlify
