@@ -5,8 +5,8 @@
       @submit.prevent="handleSubmit"
       name="contact"
       method="post"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
+      netlify
+      netlify-honeypot="bot-field"
       autocomplete="off"
     >
       <input type="hidden" name="bot-field" />
